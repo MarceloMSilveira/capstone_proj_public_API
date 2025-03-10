@@ -41,7 +41,7 @@ API_KEY=your_openweathermap_api_key
 1. Start the server by running:
 
 ```bash
-npm start
+nodemon index.js
 ```
 
 2. Open your browser and navigate to:
