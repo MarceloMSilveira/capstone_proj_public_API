@@ -7,6 +7,15 @@
 </head>
 <body>
   <h1>MS1 CAPSTONE API ACESS PROJ</h1>
-  <p>EJS test: <%= test %></p>
+  <h2>Como está o tempo agora nesta cidade:</h2>
+  <form method="post">
+    <label for="userInput">Enter a city:</label><br>
+    <input type="text" name="userInput" placeholder="type your city...">
+    <button formaction="/">Send</button>
+  </form>
+  <div>
+    <p>The weather desc will apear here: </p>
+    <p><%= locals.weather %></p>
+  </div>
 </body>
 </html>
